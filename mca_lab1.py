@@ -1,10 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 import csv
-
-# with open(r'C:\Users\tonyy\Desktop\python_plot\mca_lab1_ucbqsort_area.csv') as f:
-#     for line in f:
-#         print(line)
 
 x, y = [], []
 for line_area in open(r'mca_lab1_ucbqsort_area.csv'):
